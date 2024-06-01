@@ -11,3 +11,11 @@ As fichas também estão disponíveis para uso no [Foundry VTT](https://foundryv
 ![8](https://github.com/Dados-DestinosRPG/tmnt-tartarugas-ninjas/assets/1184178/562e87f4-0d19-4542-9be9-53da826b12e5)
 ![7](https://github.com/Dados-DestinosRPG/tmnt-tartarugas-ninjas/assets/1184178/2d8b9def-4d14-4503-af17-42e45983a3f3)
 
+### Fichas para o Foundry VTT
+
+1. criar uma nova ficha no foundry vtt
+2. baixar as fichas desse repositório
+3. clicando com o botão da direito na ficha criada selecione "Importar Dados"
+4. selecione a ficha baixada
+
+[Donatello]()
