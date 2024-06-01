@@ -18,4 +18,4 @@ As fichas também estão disponíveis para uso no [Foundry VTT](https://foundryv
 3. clicando com o botão da direito na ficha criada selecione "Importar Dados"
 4. selecione a ficha baixada
 
-[Donatello]()
+[Donatello](fvtt-Actor-donatello.json)
