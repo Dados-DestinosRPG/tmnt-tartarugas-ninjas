@@ -19,3 +19,6 @@ As fichas também estão disponíveis para uso no [Foundry VTT](https://foundryv
 4. selecione a ficha baixada
 
 [Donatello](fvtt-Actor-donatello.json)
+[Donatello](fvtt-Actor-leonardo.json)
+[Donatello](fvtt-Actor-michelangelo.json)
+[Donatello](fvtt-Actor-raphael.json)
