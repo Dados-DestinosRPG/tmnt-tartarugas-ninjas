@@ -21,4 +21,4 @@ As fichas também estão disponíveis para uso no [Foundry VTT](https://foundryv
 [Donatello](fvtt-Actor-donatello.json)
 [Leonardo](fvtt-Actor-leonardo.json)
 [Michelangelo](fvtt-Actor-michelangelo.json)
-[Raphael(fvtt-Actor-raphael.json)
+[Raphael](fvtt-Actor-raphael.json)
