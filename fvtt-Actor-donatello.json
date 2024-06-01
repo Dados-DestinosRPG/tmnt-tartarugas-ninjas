@@ -1,0 +1,1796 @@
+{
+  "name": "Donatello",
+  "type": "character",
+  "img": "tokenizer/pc-images/donatello.Avatar.webp?1717269502108",
+  "system": {
+    "attributes": {
+      "agility": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "smarts": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "animal": false
+      },
+      "spirit": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unShakeBonus": 0
+      },
+      "strength": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "encumbranceSteps": 0
+      },
+      "vigor": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unStunBonus": 0,
+        "soakBonus": 0,
+        "bleedOut": {
+          "modifier": 0,
+          "ignoreWounds": false
+        }
+      }
+    },
+    "stats": {
+      "speed": {
+        "runningDie": 6,
+        "runningMod": 0,
+        "value": 6
+      },
+      "toughness": {
+        "value": 0,
+        "armor": 0,
+        "modifier": 0
+      },
+      "parry": {
+        "value": 0,
+        "shield": 0,
+        "modifier": 0
+      },
+      "size": 0
+    },
+    "details": {
+      "autoCalcToughness": true,
+      "autoCalcParry": true,
+      "archetype": "TMNT",
+      "appearance": "",
+      "notes": "",
+      "goals": "",
+      "biography": {
+        "value": ""
+      },
+      "species": {
+        "name": "Mutante"
+      },
+      "currency": 500,
+      "wealth": {
+        "die": 6,
+        "modifier": 0,
+        "wild-die": 6
+      },
+      "conviction": {
+        "value": 0,
+        "active": false
+      }
+    },
+    "powerPoints": {
+      "general": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "fatigue": {
+      "value": 0,
+      "max": 2,
+      "ignored": 0
+    },
+    "woundsOrFatigue": {
+      "ignored": 0
+    },
+    "advances": {
+      "mode": "expanded",
+      "value": 0,
+      "rank": "Novice",
+      "details": "",
+      "list": []
+    },
+    "status": {
+      "isShaken": false,
+      "isDistracted": false,
+      "isVulnerable": false,
+      "isStunned": false,
+      "isEntangled": false,
+      "isBound": false,
+      "isIncapacitated": false
+    },
+    "initiative": {
+      "hasHesitant": false,
+      "hasLevelHeaded": false,
+      "hasImpLevelHeaded": false,
+      "hasQuick": false
+    },
+    "additionalStats": {},
+    "bennies": {
+      "value": 0,
+      "max": 3
+    },
+    "wounds": {
+      "value": 0,
+      "max": 3,
+      "ignored": 0
+    }
+  },
+  "prototypeToken": {
+    "name": "Donatello",
+    "displayName": 30,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "tokenizer/pc-images/donatello.Token.webp?1717269502108",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "8N1uMThntsjaUPem",
+      "name": "Conhecimento Geral",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/gift-of-knowledge.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Personagens rolam Conhecimento Geral&nbsp;para conhecer pessoas, lugares e coisas do&nbsp;seu mundo, incluindo etiqueta, geografia,&nbsp;cultura, tecnologia popular, contatos&nbsp;e costumes.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "",
+        "swid": "none",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": null,
+        "modifiedTime": 1717268154982,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "sAig03GZiFKqBX7p",
+      "name": "Atletismo",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/jump-across.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Atletismo combina a coordena&ccedil;&atilde;o de um indiv&iacute;duo com per&iacute;cias treinadas como escalar, saltar, equil&iacute;brio, ciclismo, luta livre, esquiar, nadar, arremessar ou pegar algo. Personagens que se baseiam mais em for&ccedil;a f&iacute;sica do que coordena&ccedil;&atilde;o podem escolher a Vantagem @Compendium[swade-core-rules-ptbr.swade-edges.Brutamontes]{Brutamontes} para associar esta per&iacute;cia a sua @UUID[Compendium.swade-core-rules-ptbr.swade-rules.CGHNSsfYfGHIh5c4.JournalEntryPage.zahwOU5qwWodD6Ue]{For&ccedil;a} no lugar da @UUID[Compendium.swade-core-rules-ptbr.swade-rules.CGHNSsfYfGHIh5c4.JournalEntryPage.zahwOU5qwWodD6Ue]{Agilidade}.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "",
+        "swid": "none",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": null,
+        "modifiedTime": 1717268144160,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "xOmuCR92Ys9jD5vg",
+      "name": "Persuadir",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/convince.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Persuadir &eacute; a habilidade de convencer as&nbsp;outras pessoas do que voc&ecirc; quer atrav&eacute;s&nbsp;de explica&ccedil;&otilde;es, bajula&ccedil;&atilde;o, engana&ccedil;&atilde;o,&nbsp;recompensas ou outros meios amig&aacute;veis.&nbsp;Persuadir n&atilde;o &eacute; controle da mente. Pode&nbsp;mudar as atitudes de uma pessoa, mas n&atilde;o&nbsp;seus objetivos. Com uma boa rolagem de&nbsp;persuadir, algu&eacute;m que estava te roubando&nbsp;pode permitir que voc&ecirc; fique com uma joia&nbsp;de grande valor sentimental, mas ainda&nbsp;levar&aacute; o resto dos seus pertences.</p>\n<p>Quando usada para dar @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.58ZggW8Al7kOVKfp]{Suporte} a aliados &eacute; um teste n&atilde;o resistido. Se o alvo resistir, &eacute; uma rolagem @JournalEntry[JBxsGv2wAoAmoCDe]{resistida} contra o @UUID[Compendium.swade-core-rules-ptbr.swade-rules.CGHNSsfYfGHIh5c4.JournalEntryPage.zahwOU5qwWodD6Ue]{Esp&iacute;rito} do alvo. O Mestre deve modificar a rolagem de acordo com seu crit&eacute;rio baseado na interpreta&ccedil;&atilde;o, quaisquer @UUID[Compendium.swade-core-rules-ptbr.swade-rules.CGHNSsfYfGHIh5c4.JournalEntryPage.kbitBW0eXTIeqTp7]{Vantagens} ou @UUID[Compendium.swade-core-rules-ptbr.swade-rules.CGHNSsfYfGHIh5c4.JournalEntryPage.rhRZ1V7Ju14bciYx]{Complica&ccedil;&otilde;es} que afetem a conversa e nas circunst&acirc;ncias.</p>\n<p><strong>N&iacute;vel de Rea&ccedil;&atilde;o:</strong>&nbsp;O quanto uma pessoa est&aacute; disposta a cooperar depende da sua atitude em rela&ccedil;&atilde;o a quem est&aacute; falando com ela. O Mestre pode decidir como personagens sob seu comando reagem com base no cen&aacute;rio ou rolando na @Compendium[swade-core-rules-ptbr.swade-tables.Tabela de Rea&ccedil;&atilde;o]{Tabela de Rea&ccedil;&atilde;o} se ele n&atilde;o tiver nada planejado.</p>\n<p>Um @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{sucesso} melhora a atitude do alvo em um n&iacute;vel, ou dois n&iacute;veis com uma amplia&ccedil;&atilde;o. Melhoras adicionais geralmente n&atilde;o s&atilde;o poss&iacute;veis no mesmo encontro &mdash; leva um certo tempo para que as pessoas mudem suas opini&otilde;es.</p>\n<p>Uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{falha} significa que o alvo manter&aacute; sua opini&atilde;o nesta cena ou at&eacute; que a situa&ccedil;&atilde;o mude de algum modo. Uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{Falha Cr&iacute;tica} tamb&eacute;m <em>reduz&nbsp;</em>a atitude do alvo em dois n&iacute;veis.</p>\n<p>No geral, apenas uma rolagem deve&nbsp;ser permitida por intera&ccedil;&atilde;o a menos que&nbsp;informa&ccedil;&otilde;es novas sejam reveladas, uma&nbsp;recompensa substancial seja oferecida, etc.</p>\n<p><strong>Rede de Contatos:&nbsp;</strong>As personagens tamb&eacute;m podem usar Persuadir como uma per&iacute;cia \"macro\", simulando algumas horas de fraterniza&ccedil;&atilde;o e socializa&ccedil;&atilde;o para ganhar favores ou informa&ccedil;&atilde;o. Veja @UUID[Compendium.swade-core-rules-ptbr.swade-rules.iVtlDDh7A3L9Lbhs.JournalEntryPage.lY4wcON6RGsBKnLq]{Rede de Contatos}.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "spirit",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "",
+        "swid": "none",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "yvw9bMgsrWQXuZN2",
+      "name": "Perceber",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/psychic-waves.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Perceber &eacute; a percep&ccedil;&atilde;o e a prontid&atilde;o geral&nbsp;de personagens. &Eacute; usada para perceber&nbsp;locais, sons, sabores e odores, achar pistas,&nbsp;detectar emboscadas, encontrar armas&nbsp;escondidas em um inimigo ou dizer se um&nbsp;rival est&aacute; mentindo, assustado, feliz, etc.</p>\n<p>Um @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{sucesso} garante informa&ccedil;&otilde;es b&aacute;sicas &mdash; permite ouvir movimento na floresta, sentir o odor de uma fuma&ccedil;a vindo de longe ou sentir que algu&eacute;m n&atilde;o est&aacute; falando com sinceridade.</p>\n<p>Uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{amplia&ccedil;&atilde;o} d&aacute; mais detalhes como a dire&ccedil;&atilde;o do som ou odor, ou ainda que t&oacute;pico a pessoa est&aacute; evitando ou mentindo a respeito.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "",
+        "swid": "none",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": null,
+        "modifiedTime": 1717268169955,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "z9FmdFVGOOW2kufm",
+      "name": "Furtividade",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/hidden.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Furtividade &eacute; a habilidade de se esconder e se mover silenciosamente. Um @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{sucesso} simples em uma rolagem de Furtividade significa evitar ser detectado por rivais que n&atilde;o estejam particularmente alertas; uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{falha} nessa rolagem faz com que se deem conta de que algo est&aacute; errado e comecem a procurar ativamente pela causa do dist&uacute;rbio.</p>\n<p>Para oponentes alertas e em atividade, Furtividade &eacute; resistida por @Compendium[swade-core-rules-ptbr.swade-skills.Perceber]{Perceber} (uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{rolagem em grupo} pode ser feita para muitos oponentes).</p>\n<p>Mestres devem aplicar quaisquer penalidades circunstanciais em rolagens de @Compendium[swade-core-rules-ptbr.swade-skills.Perceber]{Perceber} por conta da @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.BbiUK8xkxaAmkW5k]{escurid&atilde;o}, @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.ANg2wDulhdH4z151]{cobertura}, barulho, distra&ccedil;&otilde;es e quaisquer diferen&ccedil;as na @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.mwLhiYqMcWKnTdyK]{Escala} (como no ataque). Para esgueirar-se em cima de folhas secas deve-se subtrair 2 da rolagem de Furtividade, por exemplo, enquanto notar algu&eacute;m no escuro usa a penalidade (&minus;4) por @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.BbiUK8xkxaAmkW5k]{Ilumina&ccedil;&atilde;o}. Contudo, n&atilde;o aplique o mesmo modificador a ambas as rolagens (se Furtividade est&aacute; com &minus;2 pelas folhas, n&atilde;o d&ecirc; tamb&eacute;m Perceber +2).</p>\n<p><strong>Ataque Furtivo:</strong>&nbsp;Esgueirar-se perto o suficiente para realizar um ataque corpo a corpo sempre requer um teste @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{resistido} de Furtividade contra o @Compendium[swade-core-rules-ptbr.swade-skills.Perceber]{Perceber} do alvo, quer ele esteja ativamente atento ou n&atilde;o. Se o teste de Furtividade for bem-sucedido, a v&iacute;tima fica @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.qGTUJkyqsYrAenQG]{Vulner&aacute;vel} a quem faz o ataque, mas somente at&eacute; o fim de seu turno. Com uma amplia&ccedil;&atilde;o &eacute; poss&iacute;vel realizar a manobra @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.CFhMx3XVfLZcKSUu]{Finaliza&ccedil;&atilde;o}.</p>\n<p><strong>Movimento:</strong>&nbsp;Em combate, personagens rolam sua Furtividade como @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.BpKU5JUtvOciBAeS]{a&ccedil;&atilde;o livre} a cada turno no fim do seu movimento ou em qualquer a&ccedil;&atilde;o que o Mestre ache que possa chamar aten&ccedil;&atilde;o.</p>\n<p>Fora de combate, a dist&acirc;ncia movida depende inteiramente da situa&ccedil;&atilde;o. Mestres podem desejar uma rolagem por minuto se o grupo estiver esgueirando-se no per&iacute;metro de uma posi&ccedil;&atilde;o defensiva ou a cada certa dist&acirc;ncia em quil&ocirc;metros, se tentarem caminhar silenciosamente atrav&eacute;s de uma floresta escura sem alertar as criaturas que ali vivem.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "",
+        "swid": "none",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": null,
+        "modifiedTime": 1717268162038,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "name": "Sem Perícia",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "attribute": "",
+        "die": {
+          "sides": 4,
+          "modifier": -2
+        },
+        "description": "",
+        "notes": "",
+        "source": "",
+        "swid": "none",
+        "additionalStats": {},
+        "choiceSets": [],
+        "isCoreSkill": false,
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "_id": "RGJ7JyuYZK86hzR9",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "JVe3vkIAhmyysLLS",
+      "name": "Conhecimento Acadêmico",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/graduate-cap.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-skills.Item.3gZQliWQj50eXDvl"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Conhecimento Acadêmico reflete o conhecimento das artes, ciências sociais, literatura, história, arqueologia e campos similares. Se uma personagem quiser se lembrar quando acaba o calendário Maia ou citar uma fala de <em>Macbeth</em>, esta é a perícia a se usar.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "",
+        "swid": "conhecimento-academico",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717268830036,
+        "modifiedTime": 1717268830036,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "xgDBCsrmIJ5RVi0j",
+      "name": "Ciência",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/erlenmeyer.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-skills.Item.pJTriiUNvF7ohjhB"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Quem possui essa perícia estudou várias ciências complexas como biologia, xenobiologia, química, geologia, engenharia ou qualquer outra ciência “complexa”.</p>\n<p>Uma rolagem @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{bem-sucedida} de Ciência revela informações básicas sobre o tópico e uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{ampliação} dá mais detalhes.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "",
+        "swid": "ciencia",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717268845411,
+        "modifiedTime": 1717268845411,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "oIWfYgBRQEqXFLc3",
+      "name": "Consertar",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/spanner.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-skills.Item.5Jf6A4yr7XFiNmmt"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Consertar é a habilidade de desmontar e/ou reparar aparelhos mecânicos, veículos, armas e dispositivos eletrônicos simples. Também cobre o uso de demolições e explosivos.</p>\n<p>O tempo que uma rolagem de Consertar leva depende do Mestre e da complexidade do feito. Consertar um @UUID[Compendium.swade-core-rules-ptbr.swade-rules.iVtlDDh7A3L9Lbhs.JournalEntryPage.4A0CUgjnqMNJMMLK]{Ferimento} de um carro compacto em um mundo pósapocalíptico pode levar uma hora. Consertar um “Ferimento” no mesmo carro nos dias atuais poderia levar quatro horas se houver interesse em que ele seja pintado, polido, etc. Um @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{sucesso} significa que o item volta a funcionar. Uma @Compendium[swade-core-rules.swade-rules.Testes de Característica]{ampliação} na rolagem de Consertar diminui à metade o tempo necessário.</p>\n<p><strong>Ferramentas:</strong> Personagens sofrem uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{penalidade} menor (−1 a −2) em suas rolagens se não tiverem acesso à ferramentas básicas, ou uma penalidade maior (−3 a −4) se o dispositivo demandar equipamento especializado.</p>\n<p><strong>Eletrônica:</strong> Consertar pode ser usado para reparar dispositivos eletrônicos, mas é limitada pela perícia @Compendium[swade-core-rules-ptbr.swade-skills.Eletrônica]{Eletrônica}. Use a menor entre as perícias.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "",
+        "swid": "consertar",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717268852233,
+        "modifiedTime": 1717268853970,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "OUt6zNd5ZGlyPcVb",
+      "name": "Curar",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/medical-pack.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-skills.Item.Dc50EUXxlsJl7sph"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Curar tem vários usos, desde tratar @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.aNXaH8QUvsiYYuMg]{Ferimentos} a diagnosticar doenças e analisar certos tipos de evidência forense.</p>\n<p>Veja @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.9q7jAzwhYKCkOol4] para regras sobre tratar e remendar @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.aNXaH8QUvsiYYuMg]{Ferimentos} e @UUID[Compendium.swade-core-rules-ptbr.swade-rules.iVtlDDh7A3L9Lbhs.JournalEntryPage.BoA2EIZQhkTqnuTV]{Perigos} para tratamento de doenças ou veneno.</p>\n<p><strong>Ciência Forense: </strong>Curar também pode ser usada para analisar evidências que se relacionem a traumas anatômicos, incluindo a causa e hora da morte, ângulo do ataque e questões similares. Um @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{sucesso} fornece informações básicas e uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{ampliação} aumenta os detalhes desvendados.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "",
+        "swid": "curar",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717268861017,
+        "modifiedTime": 1717268865788,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "GePGif54ofb1OG4n",
+      "name": "Eletrônica",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/circuitry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-skills.Item.UnyrB2XbidZT3FaI"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Eletrônica permite o uso de dispositivos complexos ou especializados como os painéis de controle em uma máquina industrial ou os sistemas de sensores encontrados nas espaçonaves dos cenários futuristas.</p>\n<p>Eletrodomésticos ou dispositivos eletrônicos comuns no cenário não requerem Eletrônica — @Compendium[swade-core-rules-ptbr.swade-skills.Conhecimento Geral]{Conhecimento Geral} basta caso uma rolagem seja necessária. Em um mundo moderno isso se aplica a aparelhos de vídeo, celulares, etc.</p>\n<p>Para reparar qualquer tipo de eletrônico quebrado usa-se a perícia @Compendium[swade-core-rules-ptbr.swade-skills.Consertar]{Consertar}.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "",
+        "swid": "eletronica",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717268871425,
+        "modifiedTime": 1717268874649,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "2IBSTU8TPRbD4rU6",
+      "name": "Hackear",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/computing.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-skills.Item.WQTYVdRQu0S3nPd5"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Hackear é a perícia usada para criar programas e “invadir” sistemas seguros. O uso dessa perícia sempre requer um computador ou algum tipo de interface.</p>\n<p>A maioria das tarefas são uma simples rolagem de Hackear. O tempo que leva é determinado pelo Mestre, vai de uma simples ação a horas, dias ou mesmo meses, dependendo da complexidade do projeto. Um @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{sucesso} significa que a tentativa funciona como desejado e uma ampliação reduz à metade o tempo necessário. Uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{falha} geralmente significa que a tentativa de hackear deve ser feita novamente, enquanto uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{Falha Crítica} pode significar que o sistema expulsa quem está tentando invadi-lo, aciona um alarme ou aplica algum outro tipo de contramedida.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "",
+        "swid": "hackear",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717268891633,
+        "modifiedTime": 1717268891633,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "Qgq52PFTezLGJFok",
+      "name": "Lutar",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/punch.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        },
+        "swade": {
+          "auras": {
+            "aura1": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "",
+              "alpha": 0.5,
+              "visibleTo": []
+            },
+            "aura2": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "",
+              "alpha": 0.5,
+              "visibleTo": []
+            }
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-skills.Item.wWiwjPlzAQU3TN9l"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Lutar cobre todos os ataques corpo a corpo, seja com as mãos, machados, espadas laser ou artes marciais. Veja em @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.LB4Vow1KxvB3MwSO] as regras de combate e as várias manobras que podem ser tentadas.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "lutar",
+        "source": "",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717268901120,
+        "modifiedTime": 1717268903037,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "Y7jMTW5LF7ER7cS7",
+      "name": "Pesquisar",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/archive-research.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_qals24wpyph",
+          "path": "Skills",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-skills.Item.F3AkmXsrZfF83ynF"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Personagens hábeis na perícia Pesquisar sabem como fazer um bom uso de bibliotecas, arquivos de necrotérios, a internet ou outras fontes de informação escritas.</p>\n<p>O tempo que isso leva depende do Mestre e da situação. Encontrar algo na internet ou uma passagem específica em um livro pode ser possível em uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.LB4Vow1KxvB3MwSO]{rodada de combate}. Procurar em livros de uma biblioteca, procurar sobre um tópico complexo na internet ou desenterrar informações sobre os antecedentes de indivíduos geralmente leva uma hora.</p>\n<p>Um @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{sucesso} garante informações básicas e uma ampliação dá mais detalhes. Uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{falha} significa não encontrar o que está procurando.</p>\n<p>Uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{Falha Crítica} pode significar que quem está pesquisando encontra uma informação plausível, mas incorreta; atrai a atenção de uma entidade ou facção rival; encontra algo que “A Humanidade Não Deveria Conhecer” e sofre com algum tipo de doença mental (@Compendium[swade-core-rules-ptbr.swade-hindrances.Fobia]{Fobia} Menor, @Compendium[swade-core-rules-ptbr.swade-hindrances.Peculiaridade]{Peculiaridade}, etc.); ou que acidentalmente destrói a fonte. O Mestre é encorajado a ser criativo se tal infortúnio acontecer, talvez forçando o grupo a abordar a situação de modo diferente.</p>\n<p><strong>Perícias Relacionadas: </strong>Personagens com uma perícia que se relaciona diretamente ao que estão pesquisando podem usá-la em vez de Pesquisar. Alguém com @Compendium[swade-core-rules-ptbr.swade-skills.Ocultismo]{Ocultismo} d10 e Pesquisar d6, por exemplo, rola um d10 quando investiga conhecimento vampírico em uma biblioteca proibida. Se mais tarde for procurar pela escritura da casa onde dizem ser o covil dos vampiros, rola Pesquisar normalmente.</p>\n<p><strong>Nota: </strong>Pesquisar pode apenas dar as pistas, especialmente em um jogo repleto de mistérios. Juntar as peças da informação coletada fica a cargo do grupo de jogo.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "",
+        "swid": "pesquisar",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717268923307,
+        "modifiedTime": 1717268924830,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "xNdBfM3xyofdxFin",
+      "name": "Cauteloso",
+      "type": "hindrance",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_paujlrjlvl",
+          "path": "Hindrances",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-hindrances.Item.cXK4LNE4RRfeNyx9"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Personagens com Cautela personificam a moderação e a precaução, nunca tomam decisões precipitadas e gostam de planejar tudo em mínimos detalhes antes que qualquer ação seja tomada.</p>\n<p> </p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "major": false,
+        "source": "",
+        "swid": "cauteloso",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": [],
+        "severity": "either"
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717268982304,
+        "modifiedTime": 1717268982317,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "BaoEy7fErcnVNxBn",
+      "name": "Curioso",
+      "type": "hindrance",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_paujlrjlvl",
+          "path": "Hindrances",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-hindrances.Item.GULnKHGQlhgqZ7Hn"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>A curiosidade matou o gato e também pode matar personagens com esta Complicação. Irão checar tudo e sempre querem saber o que há por trás de um mistério ou segredo em potencial.</p>\n<p> </p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "major": true,
+        "source": "",
+        "swid": "curioso",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": [],
+        "severity": "either"
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717268985002,
+        "modifiedTime": 1717268985009,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "RDiHPNtgmwvo8CJw",
+      "name": "Heroico",
+      "type": "hindrance",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_paujlrjlvl",
+          "path": "Hindrances",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-hindrances.Item.Yv7grUtMJomyg2ek"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Esta nobre alma nunca diz não a uma pessoa necessitada. Não necessariamente a personagem fica feliz com isso, mas sempre virá em socorro daqueles que não podem ajudar a si mesmos. É a primeira pessoa a correr para dentro de um prédio em chamas, geralmente aceita caçar monstros por pouco ou nenhum pagamento e normalmente é alvo fácil para uma história triste.</p>\n<p> </p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "major": true,
+        "source": "",
+        "swid": "heroico",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": [],
+        "severity": "either"
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717268991012,
+        "modifiedTime": 1717268991020,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "FIa90ZDuAmLeTkZU",
+      "name": "Forasteiro",
+      "type": "hindrance",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_paujlrjlvl",
+          "path": "Hindrances",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-hindrances.Item.vYcGwoqIX50TUDiT"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>(MENOR OU MAIOR)</p>\n<p>Em uma sociedade formada por apenas alguns tipos de pessoas, as personagens com a Complicação Forasteiro não se encaixam. Um membro de um povo nativo americano em uma cidade do Velho Oeste, uma criatura alienígena em um jogo de ficção científica de fuzileiros humanos ou uma criatura meio-orc em um grupo composto por raças élficas, anãs e humanas são todos exemplos de Forasteiros. Habitantes locais são suscetíveis a aumentar os preços para estas figuras deslocadas, ignorar seus pedidos de socorro e geralmente tratam-nas como se fossem de uma classe mais baixa.</p>\n<p>Tais personagens subtraem 2 de @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{rolagens} de @Compendium[swade-core-rules-ptbr.swade-skills.Persuadir]{Persuadir} feitas para influenciar quem não é do seu próprio povo. A versão @UUID[Compendium.swade-core-rules-ptbr.swade-rules.CGHNSsfYfGHIh5c4.JournalEntryPage.yvgDcHLT1kjrn4iP]{Maior} também  significa ter poucos ou nenhum direito legal na região da campanha. Personagens com esta complicação podem ser de uma espécie diferente entre xenófobos, estar em uma civilização cruel e pouco esclarecida em relação a estranhos ou pode ser uma inteligência artificial cuja consciência não é reconhecida por lei.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "major": false,
+        "source": "",
+        "swid": "forasteiro",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": [],
+        "severity": "either"
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717268998539,
+        "modifiedTime": 1717268998555,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "uuXzn46AdbfgKcPc",
+      "name": "Leal",
+      "type": "hindrance",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_paujlrjlvl",
+          "path": "Hindrances",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-hindrances.Item.eXB8VvAYn88eXalc"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Personagens leais possuem grande coragem e arriscam sua vida sem hesitação pelas suas amizades. Podem até não agir dessa maneira, mas ajudam sem pensar quando as pessoas próximas são ameaçadas.</p>\n<p> </p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "major": false,
+        "source": "",
+        "swid": "leal",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": [],
+        "severity": "either"
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717269004335,
+        "modifiedTime": 1717269004353,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "koEp56fRiAW4mmhv",
+      "name": "Arma Predileta",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_bv1geyfk6c",
+          "path": "Edges#/CF_SEP/Combat Edges",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-edges.Item.QHBtO0jmIzfl8TDE"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Alguém com essa Vantagem conhece uma única arma (Excalibur, Old Betsy, Ferroada) como a palma da sua mão. Quando a usa, pode adicionar +1 em suas rolagens de @Compendium[swade-core-rules-ptbr.swade-skills.Atletismo]{Atletismo} (arremessar), @Compendium[swade-core-rules-ptbr.swade-skills.Lutar]{Lutar} ou @Compendium[swade-core-rules-ptbr.swade-skills.Atirar]{Atirar} e +1 no @UUID[Compendium.swade-core-rules-ptbr.swade-rules.CGHNSsfYfGHIh5c4.JournalEntryPage.yvgDcHLT1kjrn4iP]{Aparar} quando ela está preparada (mesmo que seja uma arma de combate à distância).</p>\n<p>É permitido escolher esta Vantagem várias vezes, aplicando a uma arma diferente cada vez. Se uma Arma Predileta for perdida, é possível substituí-la, mas os benefícios não entram em vigor por alguns dias (quanto tempo o Mestre considerar dramaticamente apropriado).</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": 0,
+            "selector": "",
+            "combinator": "and"
+          },
+          {
+            "type": "other",
+            "label": "perícia com a arma escolhida em d8+",
+            "selector": "",
+            "value": "",
+            "combinator": "and"
+          }
+        ],
+        "source": "",
+        "swid": "arma-predileta",
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717269033680,
+        "modifiedTime": 1717269033702,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "FP0efkNyDDUPTood",
+      "name": "Artista Marcial",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_bv1geyfk6c",
+          "path": "Edges#/CF_SEP/Combat Edges",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-edges.Item.6OBT6Kt7CWBzIsab"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Alguém com essa Vantagem tem treinamento básico em artes marciais. Considera-se que sempre está com armas, por causa do dano que pode causar com seus punhos e pés (veja <strong>@UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.vTM1m4wZu6EZIsPM]{Armas Naturais}</strong>). Soma +1 quando golpeia com eles e causa @UUID[Compendium.swade-core-rules-ptbr.swade-rules.CGHNSsfYfGHIh5c4.JournalEntryPage.zahwOU5qwWodD6Ue]{Força} + d4 de dano. Se já possuir um dado de dano por Força pela habilidade racial <strong>@UUID[Compendium.swade-core-rules-ptbr.swade-rules.i1doThAoZoNyspVL.JournalEntryPage.HBQahIEPdI4Bww97]{Garras}</strong> ou pela Vantagem @Compendium[swade-core-rules-ptbr.swade-edges.Brigão]{Brigão}, aumente o dano em um tipo de dado.</p>\n<p>Artista Marcial <em>não </em>soma ao dano com outras Armas Naturais como presas ou chifres.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": 0,
+            "selector": "",
+            "combinator": "and"
+          },
+          {
+            "type": "other",
+            "label": "Lutar d6+",
+            "selector": "",
+            "value": "",
+            "combinator": "and"
+          }
+        ],
+        "source": "",
+        "swid": "artista-marcial",
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717269037837,
+        "modifiedTime": 1717269037856,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "dh0S1brLB9kFT59l",
+      "name": "Varredura",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_bv1geyfk6c",
+          "path": "Edges#/CF_SEP/Combat Edges",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-edges.Item.BnYCof561WlKFJFY"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\"><p>Como uma ação limitada, essa vantagem permite permite realizar um único ataque com @Compendium[swade-core-rules-ptbr.swade-skills.Lutar]{Lutar} com uma arma de duas mãos e aplicá-lo a todos os alvos dentro do seu @UUID[Compendium.swade-core-rules-ptbr.swade-rules.QX0YJZ7n4PmX0Ghn.JournalEntryPage.hFVkCH1lQAJR1qld]{Alcance} (rivais ou aliados). Resolva o dano separadamente para cada alvo atingido. Se não usar uma arma de duas mãos, se aplica um redutor de -2.</p></div>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": 0,
+            "selector": "",
+            "combinator": "and"
+          },
+          {
+            "type": "other",
+            "label": "Força d8+",
+            "selector": "",
+            "value": "",
+            "combinator": "and"
+          },
+          {
+            "type": "other",
+            "label": "Lutar d8+",
+            "selector": "",
+            "value": "",
+            "combinator": "and"
+          }
+        ],
+        "source": "",
+        "swid": "varredura",
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717269045714,
+        "modifiedTime": 1717269045732,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "0xWvJCNxGPLWXoS9",
+      "name": "McGyver",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_4wzuhu4mbqi",
+          "path": "Edges#/CF_SEP/Professional Edges",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-edges.Item.rPgmtYSEdfK3gvDS"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>McGyvers podem improvisar umcdispositivo a partir de recursos comuns quando surgir a necessidade. Com alguns itens simples podem fazer uma rolagem de @Compendium[swade-core-rules-ptbr.swade-skills.Consertar]{Consertar} para criar armas improvisadas, explosivos ou ferramentas que duram até que sejam usadas ou até o fim do encontro (critério do Mestre). Isso leva um turno inteiro e eles não podem se mover ou realizar quaisquer outras ações enquanto estão construindo o dispositivo.</p>\n<p>Uma falha indica que o dispositivo não fica pronto. Uma @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.K8jVK1PHob3tcnaY]{Falha Crítica} significa que eles não têm os materiais certos e não podem criar o dispositivo neste encontro. </p>\n<p>Sucesso cria um explosivo menor (Dano 2d4 explosivo em um @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.vL3TExJeOXzRXAi3]{Modelo Pequeno de Explosão}), uma arma de projétil de tiro único tipo uma “zip gun” (@UUID[Compendium.swade-core-rules-ptbr.swade-rules.QX0YJZ7n4PmX0Ghn.JournalEntryPage.hFVkCH1lQAJR1qld]{Distância} 5/10/20, Dano 2d6), uma jangada, fonte elétrica, etc.</p>\n<p>Uma ampliação cria um explosivo maior (Dano 2d6 em um Modelo Médio de Explosão ou 2d4 em um Grande), uma arma de combate à distância melhor (cinco tiros, 2d8 de dano, Distância 10/20/40), uma jangada mais estável, uma bateria mais potente, etc.</p>\n<p>A qualidade ou poder da criação fica completamente a critério do Mestre, a criatividade deve ser recompensada, particularmente nas situações mais difíceis e dramáticas.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": 0,
+            "selector": "",
+            "combinator": "and"
+          },
+          {
+            "type": "other",
+            "label": "Novice",
+            "selector": "",
+            "value": "",
+            "combinator": "and"
+          },
+          {
+            "type": "other",
+            "label": "Smarts d6+",
+            "selector": "",
+            "value": "",
+            "combinator": "and"
+          },
+          {
+            "type": "other",
+            "label": "Notice d8+",
+            "selector": "",
+            "value": "",
+            "combinator": "and"
+          },
+          {
+            "type": "other",
+            "label": "Repair d6+",
+            "selector": "",
+            "value": "",
+            "combinator": "and"
+          }
+        ],
+        "source": "",
+        "swid": "mcgyver",
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717269053467,
+        "modifiedTime": 1717269053486,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "name": "Casco",
+      "type": "edge",
+      "system": {
+        "description": "",
+        "notes": "",
+        "source": "",
+        "swid": "novoa-edge",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "choiceSets": [],
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": "Novato",
+            "selector": "and",
+            "combinator": "and"
+          }
+        ]
+      },
+      "_id": "QVqINqve5ohvfiZ6",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "effects": [
+        {
+          "name": "Casco",
+          "icon": "systems/swade/assets/icons/edge.svg",
+          "duration": {
+            "rounds": null,
+            "startTime": 930,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false,
+              "favorite": false
+            }
+          },
+          "changes": [
+            {
+              "key": "system.stats.toughness.armor",
+              "mode": 2,
+              "value": "+2"
+            }
+          ],
+          "transfer": true,
+          "_id": "T6Ox8dnycs6gkMsi",
+          "disabled": false,
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "tint": null
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717269064062,
+        "modifiedTime": 1717269067805,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "vYHVJv4IR8g3kfgL",
+      "name": "Kit de Primeiros Socorros",
+      "type": "gear",
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_n1mfbu86ab",
+          "path": "Equipment#/CF_SEP/Common Gear#/CF_SEP/Adventuring Gear",
+          "color": "#000000"
+        },
+        "swade": {
+          "weight": "metric",
+          "hasGranted": []
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-equipment.Item.EdDDcpwz2lsa7pjQ"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>Três usos, veja @UUID[Compendium.swade-core-rules-ptbr.swade-rules.YqkGb1HsubFuZycb.JournalEntryPage.9q7jAzwhYKCkOol4]{Cura}.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0.5,
+        "price": 10,
+        "equippable": true,
+        "equipStatus": 1,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "",
+          "traitMod": ""
+        },
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false,
+        "source": "",
+        "swid": "kit-de-primeiros-socorros",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717269235769,
+        "modifiedTime": 1717269235784,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "SmWzG35fGQ7d8BxN",
+      "name": "Kit de Ferramentas",
+      "type": "gear",
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_n1mfbu86ab",
+          "path": "Equipment#/CF_SEP/Common Gear#/CF_SEP/Adventuring Gear",
+          "color": "#000000"
+        },
+        "swade": {
+          "weight": "metric",
+          "hasGranted": []
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-equipment.Item.uR0FNLHN4IHRZegN"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\"></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 2.5,
+        "price": 200,
+        "equippable": true,
+        "equipStatus": 1,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "",
+          "traitMod": ""
+        },
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false,
+        "source": "",
+        "swid": "kit-de-ferramentas",
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717269240436,
+        "modifiedTime": 1717269240449,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "name": "Peças Diversas",
+      "type": "gear",
+      "system": {
+        "description": "",
+        "notes": "",
+        "source": "",
+        "swid": "novoa-gear",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 1,
+        "price": 0,
+        "equippable": false,
+        "equipStatus": 1,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "choiceSets": [],
+        "isAmmo": false
+      },
+      "_id": "N9iEEs4b65Xc8gf3",
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717269258136,
+        "modifiedTime": 1717269271787,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    },
+    {
+      "_id": "pAq6cltthmVWAisg",
+      "name": "Cajado Bõ",
+      "type": "weapon",
+      "img": "modules/swade-core-rules-ptbr/assets/art/equipment/weapons/Staff.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "cf": {
+          "id": "temp_zrlywdv428i",
+          "path": "Equipment#/CF_SEP/Personal Weapons#/CF_SEP/Melee Weapons, Medieval",
+          "color": "#000000"
+        },
+        "swade": {
+          "weight": "metric",
+          "hasGranted": []
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules-ptbr.swade-equipment.Item.TO1JfjwxcqshHkxn"
+        }
+      },
+      "system": {
+        "description": "<div class=\"swade-core\">\n<p>+1 @UUID[Compendium.swade-core-rules-ptbr.swade-rules.QX0YJZ7n4PmX0Ghn.JournalEntryPage.zcurXws7zPjWpG4N]{Aparar}, @UUID[Compendium.swade-core-rules-ptbr.swade-rules.QX0YJZ7n4PmX0Ghn.JournalEntryPage.hFVkCH1lQAJR1qld]{Alcance} 1, @UUID[Compendium.swade-core-rules-ptbr.swade-rules.QX0YJZ7n4PmX0Ghn.JournalEntryPage.Woq6TvH9ZDmmdC3Q]{duas mãos}</p>\n</div>",
+        "notes": "Aparar +1, Alcance 1, duas mãos",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 2,
+        "price": 10,
+        "equippable": true,
+        "equipStatus": 1,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {
+            "1kz1l846vs": {
+              "name": "Com uma mão",
+              "type": "trait",
+              "override": "",
+              "dice": null,
+              "resourcesUsed": null,
+              "modifier": "-4",
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          },
+          "trait": "Lutar",
+          "traitMod": ""
+        },
+        "bonusDamageDie": 6,
+        "favorite": true,
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "damage": "@str+d4",
+        "range": "",
+        "rof": 0,
+        "ap": 0,
+        "parry": 1,
+        "minStr": "d4",
+        "shots": 0,
+        "currentShots": 0,
+        "ammo": "",
+        "trademark": 1,
+        "isHeavyWeapon": false,
+        "source": "",
+        "swid": "bastao",
+        "bonusDamageDice": 1,
+        "choiceSets": [],
+        "rangeType": null,
+        "reloadType": "none",
+        "ppReloadCost": 2
+      },
+      "ownership": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "NmRgNwH8uBP3m6c0": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1717269306875,
+        "modifiedTime": 1717269357440,
+        "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "exportSource": {
+      "world": "swade",
+      "system": "swade",
+      "coreVersion": "11.315",
+      "systemVersion": "3.4.1"
+    }
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1717268108466,
+    "modifiedTime": 1717269502110,
+    "lastModifiedBy": "NmRgNwH8uBP3m6c0"
+  }
+}
