@@ -2,8 +2,8 @@
 
 ## Nesse repositório disponibilizamos as fichas para jogar Tartarugas Ninjas no sistema SWADE
 
-O conteúdo foi retirado do site [https://forum.rpg.net](forum.rpg.net), traduzido, adaptado e disponibilizado pela [https://odysseypub.com.br](Odyssey Publicações).
-As fichas também estão disponíveis para uso no [https://foundryvtt.com](Foundry VTT).
+O conteúdo foi retirado do site [https://forum.rpg.net](forum.rpg.net), traduzido, adaptado e disponibilizado pela [https://odysseypub.com.br](Odyssey Publicações)
+As fichas também estão disponíveis para uso no [https://foundryvtt.com](Foundry VTT)
 
 ### As tartarugas Ninjas
 ![5](https://github.com/Dados-DestinosRPG/tmnt-tartarugas-ninjas/assets/1184178/cfcb9228-bf40-4d23-8417-068dfbbfc474)
