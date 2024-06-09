@@ -1,4 +1,4 @@
-# Teenage Mutante Ninja Turtle - As Tartarugas Ninjas
+# Teenage Mutant Ninja Turtle - As Tartarugas Ninjas
 
 ## Nesse repositório disponibilizamos as fichas para jogar Tartarugas Ninjas no sistema SWADE
 
